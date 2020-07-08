@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+        html,body{
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+            overflow-x: hidden; 
+            background-color: rgb(221, 221, 221);
+        }
+        footer{
+          position: fixed;
+          bottom: 0px;
+          color: white;
+          text-align: center;
+          border-top: 7px solid rgb(172, 70, 70);
+          width:100%;
+        }
+        .container {
+          border-style: solid;
+          border-color: rgb(172, 70, 70);
+          border-width: 1px;
+        }
+        #navbarToggleExternalContent {
+          text-align: right;
+          background-color: rgb(221, 221, 221);
+        }
+        .tabs {
+          text-align: center;
+          width: 100%;
+          background-color: white;
+        }
+
+        .card-body{
+          text-align: center;
+        }
+
+        .card {
+          height: 370px;
+          border-style: solid;
+          border-color: rgb(172, 70, 70);
+        }
+        .card:hover {
+          transition-duration: 1s;
+          transform: scale(1.05);
+        }
+
+        hr {
+          background-color: rgb(172, 70, 70);
+          border: 0;
+          clear:both;
+          display:block;
+          width: 97%;               
+          height: 1px;
+        }
+        @media (max-width: 600px){
+          #portfolioText {
+            text-align: center;
+          }
+        }
+        .portfolio {
+          color: rgb(172, 70, 70);
+        }
+        .about {
+          color: rgb(207, 198, 74);
+        }
+
+
+      </style>
+  </head>
+  <body>
+      <div class="pos-f-t" id = "nav">
+          <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+              <a class = "text-info" href = "contact.html">Contact</a>
+              <br>
+              <a class = "portfolio" href = "portfolio.html">Portfolio</a>
+              <br>
+              <a class = "about" href = "index.html">About</a>
+            </div>
+          </div>
+          <nav class="navbar navbar-dark bg-dark">
+            <h3 class = "text-white">Aidan Sweeny</h3>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </nav>
+        </div>
+
+        <div class = "container m-4 rounded" style = "background-color:rgb(221, 221, 221)">
+            <h2 class = "m-3 text-dark" id = "portfolioText">Portfolio</h2>
+            <hr>
+          <div class = "row">
+              <div class = "col-md-5 m-4">
+                  <div class="card" id = "life" style="width: 300px;">
+                      <img src="life.jpg" class="card-img-top" alt="life website">
+                      <div class="card-body rounded" style = "background-color: rgb(221, 221, 221);">
+                        <h4 class="card-text">L.I.F.E Website</h4>
+                      </div>
+                    </div>
+              </div>
+            
+              <div class = "col-md-5 m-4">
+                <div class="card"  id = "weather" style="width: 300px;">
+                    <img src="weather.jpg" class="card-img-top" alt="weather app">
+                    <div class="card-body rounded" style = "background-color: rgb(221, 221, 221);">
+                      <h4 class="card-text">Weather Dashboard</h4>
+                    </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class = "row">
+            <div class = "col-md-5 m-4">
+                <div class="card"  id = "password" style="width: 300px;">
+                    <img src="password.jpg" class="card-img-top" alt="password">
+                    <div class="card-body rounded" style = "background-color: rgb(221, 221, 221);">
+                      <h4 class="card-text">Password Generator</h4>
+                    </div>
+                  </div>
+              </div>
+            <div class = "col-md-5 m-4">
+                <div class="card" style="width: 300px;">
+                    <img src="https://bkstr.scene7.com/is/image/Bkstr/17589980?$NontextPDPRecsRightRail_ET$" class="card-img-top" alt="...">
+                    <div class="card-body rounded" style = "background-color: rgb(221, 221, 221);">
+                      <h4 class="card-text">Coming Soon</h4>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <div class = "row">
+            <div class = "col-md-5 m-4">
+                <div class="card" style="width: 300px;">
+                    <img src="https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/30/f2/f8/30f2f807-c988-99df-71bf-59dce6d8f021/source/256x256bb.jpg" class="card-img-top" alt="...">
+                    <div class="card-body rounded" style = "background-color: rgb(221, 221, 221);">
+                      <h4 class="card-text">Coming Soon</h4>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+
+        <footer>
+            <p class = "bg-dark mb-auto">&copy;Copyright</p>
+        </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+        $("#life").on("click", function(){
+          window.location.href = "https://aidansweeny.github.io/life/";
+        });
+        $("#weather").on("click", function(){
+          window.location.href = "https://aidansweeny.github.io/weather-dashboard/";
+        });
+        $("#password").on("click", function(){
+          window.location.href = "https://aidansweeny.github.io/password-generator/";
+        });
+    </script>
+  </body>
+</html>
